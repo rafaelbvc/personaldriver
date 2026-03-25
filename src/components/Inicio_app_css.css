@@ -1,6 +1,7 @@
 .inicio_app_css {
+    width: 100vw;
     background-color: white;
-    min-height: 76vh;
+    min-height: 77vh;
     font-size: calc(10px + 2vmin);
     color: black;
 }

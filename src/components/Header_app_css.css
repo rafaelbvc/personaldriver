@@ -1,4 +1,6 @@
 .header_app_css {
+    margin-top: -2vh;
+    width: 100vw;
     background-color: #282c34;
     height: 8vh;
     font-size: calc(10px + 1vmin);

@@ -16,9 +16,11 @@ function App() {
 
       <div>
         <Inicio_app />
+        {/*
         <Painel_app />
         <Midia_app />
         <Contato_app />
+        */}
       </div>
 
       <footer>
