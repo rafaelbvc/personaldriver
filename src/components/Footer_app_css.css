@@ -1,6 +1,6 @@
 .footer_app_css {
     background-color: #282c34;
-    min-height: 12vh;
-    font-size: calc(10px + 2vmin);
+    min-height: 10vh;
+    font-size: calc(10px + 1vmin);
     color: white;
 }
