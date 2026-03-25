@@ -6,7 +6,7 @@ export const Header_app = () => {
 
 
     return (
-        <div className="Header_App_Css_">
+        <div className="header_app_css">
             <p>amor meu Gisllene teste</p>
         </div>
     )
