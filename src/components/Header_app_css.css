@@ -3,6 +3,14 @@
     width: 100vw;
     background-color: #282c34;
     height: 8vh;
-    font-size: calc(10px + 1vmin);
+    font-size: calc(10px + 1.6vmin);
     color: white;
+
+}
+
+.menu_header_css {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
