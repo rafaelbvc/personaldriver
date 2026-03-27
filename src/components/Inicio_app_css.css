@@ -2,6 +2,9 @@
     width: 100vw;
     background-color: white;
     min-height: 77vh;
+}
+
+.inicio_css {
     font-size: calc(10px + 2vmin);
     color: black;
 }
