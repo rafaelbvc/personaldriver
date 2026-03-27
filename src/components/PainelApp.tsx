@@ -1,10 +1,10 @@
 import "./Painel_app_css.css"
 
 
-export const Painel_app = () => {
+export const PainelApp = () => {
     return (
         <div className="painel_app_css">
-            <p>Painel_app</p>
+            <p className="painel_painel_css">PainelApp</p>
         </div>
     )
 }

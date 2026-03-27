@@ -1,9 +1,8 @@
 import "./Contato_app_css.css"
-
-export const Contato_app = () => {
+export const ContatoApp = () => {
     return (
         <div className="contato_app_css">
-            <p>Contato_app</p>
+            <p className="contato_contato_css">ContatoApp</p>
         </div>
     )
 }
