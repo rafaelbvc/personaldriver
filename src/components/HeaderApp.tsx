@@ -1,7 +1,7 @@
 import "./Header_app_css.css"
 
 
-export const Header_app = () => {
+export const HeaderApp = () => {
 
     return (
         <div className="header_app_css">

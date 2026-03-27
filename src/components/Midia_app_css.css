@@ -1,6 +1,11 @@
 .midia_app_css {
-    background-color: white;
-    min-height: 76vh;
-    font-size: calc(10px + 2vmin);
-    color: black;
+    background-color: #282c34;
+    min-height: 78vh;
+}
+
+
+.midia_midia_css {
+    margin: 0;
+    font-size: calc(10px + 0.9vmin);
+    color: white;
 }

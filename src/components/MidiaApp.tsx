@@ -1,11 +1,11 @@
 import "./Midia_app_css.css"
 
 
-export const Midia_app = () => {
+export const MidiaApp = () => {
     return (
 
         <div className="midia_app_css">
-            <p>Midia_app</p>
+            <p className="midia_midia_css">MidiaApp</p>
         </div>
     )
 }
