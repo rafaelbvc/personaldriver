@@ -16,8 +16,8 @@ export const Header_app = () => {
             </div>
             <div className="login_header_css">
 
-                <p>Login</p>
-                <p>Register</p>
+                <p className="login_login_css">Login</p>
+                <p className="register_login_css">Register</p>
 
             </div>
 

@@ -14,13 +14,16 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    width: 50vw;
+    margin-left: 0;
 }
 
 .login_header_css {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    align-items: right;
+    justify-content: right;
+    margin-right: 4vw;
 }
 
 
@@ -30,6 +33,7 @@ p {
     margin-left: 3vw;
 }
 
-.inicio_menu_css {
-    margin-left: 0;
+
+.login_header_css {
+    width: 50vw
 }
