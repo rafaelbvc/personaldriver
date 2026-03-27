@@ -28,7 +28,7 @@
 
 
 p {
-    font-size: calc(10px + 1.4vmin);
+    font-size: calc(10px + 1vmin);
     color: white;
     margin-left: 3vw;
 }
@@ -36,4 +36,8 @@ p {
 
 .login_header_css {
     width: 50vw
+}
+
+.sair_login_css {
+    display: none;
 }

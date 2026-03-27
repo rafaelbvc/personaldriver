@@ -1,10 +1,11 @@
 .inicio_app_css {
     width: 100vw;
-    background-color: white;
-    min-height: 77vh;
+    background-color: #282c34;
+    min-height: 82vh;
 }
 
 .inicio_css {
-    font-size: calc(10px + 2vmin);
-    color: black;
+    margin: 0;
+    font-size: calc(10px + 0.9vmin);
+    color: white;
 }
