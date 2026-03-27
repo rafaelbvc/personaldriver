@@ -26,8 +26,20 @@
     margin-right: 4vw;
 }
 
-
 p {
+    font-size: calc(10px + 1vmin);
+    color: black;
+    margin-left: 3vw;
+}
+
+
+.inicio_menu_css,
+.painel_menu_css,
+.midia_menu_css,
+.contato_menu_css,
+.entrar_login_css,
+.registrar_login_css,
+.sair_login_css {
     font-size: calc(10px + 1vmin);
     color: white;
     margin-left: 3vw;
@@ -38,6 +50,7 @@ p {
     width: 50vw
 }
 
-.sair_login_css {
+.sair_login_css,
+.sair_decoration_css {
     display: none;
 }

@@ -1,10 +1,10 @@
 import './App.css';
-import { ContatoApp } from './components/ContatoApp';
+import { ContatoApp } from './pages/ContatoApp';
 import { FooterApp } from './components/FooterApp';
 import { HeaderApp } from './components/HeaderApp';
-import { InicioApp } from './components/InicioApp';
-import { MidiaApp } from './components/MidiaApp';
-import { PainelApp } from './components/PainelApp';
+import { InicioApp } from './pages/InicioApp';
+import { MidiaApp } from './pages/MidiaApp';
+import { PainelApp } from './pages/PainelApp';
 
 function App() {
   return (
@@ -14,12 +14,12 @@ function App() {
         <HeaderApp />
       </header>
 
-      <div>
+      <body>
         <InicioApp />
         <PainelApp />
         <MidiaApp />
         <ContatoApp />
-      </div>
+      </body>
 
       <footer>
         <FooterApp />
