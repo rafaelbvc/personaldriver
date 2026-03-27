@@ -1,4 +1,4 @@
-export const Error_app = () => {
+export const ErrorApp = () => {
     return
     (
         <></>

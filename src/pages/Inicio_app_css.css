@@ -1,9 +1,10 @@
-.contato_app_css {
+.inicio_app_css {
+    width: 100vw;
     background-color: #282c34;
-    min-height: 78vh;
+    min-height: 82vh;
 }
 
-.contato_contato_css {
+.inicio_inicio_css {
     margin: 0;
     font-size: calc(10px + 0.9vmin);
     color: white;
