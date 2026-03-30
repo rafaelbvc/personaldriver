@@ -14,12 +14,12 @@ function App() {
         <HeaderApp />
       </header>
 
-      <body>
+      <div>
         <InicioApp />
         <PainelApp />
         <MidiaApp />
         <ContatoApp />
-      </body>
+      </div>
 
       <footer>
         <FooterApp />
