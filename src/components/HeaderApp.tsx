@@ -16,7 +16,6 @@ export const HeaderApp = () => {
                 <p className="contato_menu_css">Contato</p>
                 <p>|</p>
 
-
             </div>
             <div className="login_header_css">
 
@@ -33,5 +32,32 @@ export const HeaderApp = () => {
         </div>
     )
 }
+
+
+{/* function MeuComponente() {
+  return (
+    <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+      Ir para o Google
+    </a>
+  );
+}
+
+interno
+
+npm install react-router-dom
+
+import { Link } from 'react-router-dom';
+
+function Menu() {
+  return (
+    <nav>
+      <Link to="/">Home</Link>
+      <Link to="/sobre">Sobre</Link>
+    </nav>
+  );
+}
+
+
+ */}
 
 
