@@ -28,9 +28,9 @@
 
 span,
 p {
-    font-size: calc(10px + 0.8vmin);
+    font-size: calc(10px + 0.7vmin);
     color: black;
-    margin-left: 3vw;
+    margin-left: 2vw;
 }
 
 
@@ -41,9 +41,16 @@ p {
 .entrar_login_css,
 .registrar_login_css,
 .sair_login_css {
-    font-size: calc(10px + 0.8vmin);
+    font-size: calc(10px + 0.7vmin);
     color: white;
-    margin-left: 3vw;
+    margin-left: 2vw;
+    text-decoration: none;
+}
+
+.entrar_login_css,
+.registrar_login_css,
+.sair_login_css {
+    cursor: pointer;
 }
 
 
