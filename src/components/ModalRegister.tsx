@@ -13,7 +13,7 @@ export default function ModalRegister({ isOpen, children, setModalOpen }: TModal
         return (
             <div className="background_modal_css">
                 <div className="modal_modal_css">
-                    <p>Modal Registro</p>
+                    <p>Modal Success com margin 2vw vindo do css</p>
                     <div>{children}</div>
                     <button onClick={setModalOpen}>X</button>
                 </div>
