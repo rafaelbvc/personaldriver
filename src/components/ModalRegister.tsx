@@ -1,13 +1,14 @@
 import "./Modal_register_css.css"
 
-//type TModalRegister = {
-//    isOpen: boolean
-//   children: any
-//    setModalOpen: any
-//}
+type TModalRegister = {
+    isOpen: boolean
+    children: any
+    setModalOpen: any
+}
 
 
-export default function ModalRegister({ isOpen, children, setModalOpen }) {
+
+export default function ModalRegister({ isOpen, children, setModalOpen }: TModalRegister) {
 
     if (isOpen) {
         return (
