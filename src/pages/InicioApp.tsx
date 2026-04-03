@@ -6,29 +6,48 @@ export const InicioApp = () => {
     return (
         <div className="inicio_app_css">
 
-                <div style={{
+            <div style={{
 
-                     width: "50vw",
-                     height: "82vh",
-                     marginLeft: "2.5vw",
-                     backgroundImage: `url(${Inicio1jpg})`,
-                     backgroundSize: "contain",
-                     backgroundRepeat: "no-repeat",
-                }}>
+                width: "100vw",
+                height: "100vh",
+                backgroundImage: `url(${Inicio1jpg})`,
+                backgroundSize: "cover",
+                backgroundRepeat: "no-repeat",
+            }}>
 
-                <div style={{
+        {/*    <div style={{
 
-                     width: "50vw",
-                     height: "82vh",
-                     marginLeft: "47.4vw",
-                     backgroundImage: `url(${Inicio2jpg})`,
-                     backgroundSize: "contain",
-                     backgroundRepeat: "no-repeat",
-                }}>
+                width: "50vw",
+                height: "82vh",
+                marginLeft: "47.4vw",
+                backgroundImage: `url(${Inicio2jpg})`,
+                backgroundSize: "contain",
+                backgroundRepeat: "no-repeat",
+            }}>
 
-                </div>
-
-                <p className="inicio_inicio_css">Inicio teste</p>
+            </div> */}
+            <div style={{width: "100vw", height: "8vh"}}/>
+            <p className="inicio_inicio_css">Inicio teste</p>
+            <p className="inicio_inicio_css">Inicio teste</p>
+            <p className="inicio_inicio_css">Inicio teste</p>
+            <p className="inicio_inicio_css">Inicio teste</p>
+            <p className="inicio_inicio_css">Inicio teste</p>
+            <p className="inicio_inicio_css">Inicio teste</p>
+            <p className="inicio_inicio_css">Inicio teste</p>
+            <p className="inicio_inicio_css">Inicio teste</p>
+            <p className="inicio_inicio_css">Inicio teste</p>
+            <p className="inicio_inicio_css">Inicio teste</p>
+            <p className="inicio_inicio_css">Inicio teste</p>
+            <p className="inicio_inicio_css">Inicio teste</p>
+            <p className="inicio_inicio_css">Inicio teste</p>
+            <p className="inicio_inicio_css">Inicio teste</p>
+            <p className="inicio_inicio_css">Inicio teste</p>
+            <p className="inicio_inicio_css">Inicio teste</p>
+            <p className="inicio_inicio_css">Inicio teste</p>
+            <p className="inicio_inicio_css">Inicio teste</p>
+            <p className="inicio_inicio_css">Inicio teste</p>
+            <p className="inicio_inicio_css">Inicio teste</p>
+            <p className="inicio_inicio_css">Inicio teste</p>
 
             </div>
         </div>)
