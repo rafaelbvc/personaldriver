@@ -6,7 +6,7 @@ export const FooterApp = () => {
     return (
 
         <div className="footer_app_css">
-            <p className="content_footer_css">footer teste</p>
+            <p className="content_footer_css">Marco Personal Driver</p>
         </div>
 
     )
