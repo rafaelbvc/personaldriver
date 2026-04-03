@@ -1,12 +1,16 @@
 .header_app_css {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     width: 100vw;
-    background-color: #282c34;
+    background-color: rgb(40,44,52, 0.7);
     height: 8vh;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-
+    z-index: 101;
 }
 
 .menu_header_css {
@@ -45,6 +49,10 @@ p {
     color: white;
     margin-left: 2vw;
     text-decoration: none;
+}
+
+.inicio_menu_css {
+    margin-left: 2.5vw;
 }
 
 .entrar_login_css,
