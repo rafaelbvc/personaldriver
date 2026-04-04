@@ -4,7 +4,7 @@
     left: 0;
     right: 0;
     width: 100vw;
-    background-color: rgb(40,44,52, 0.7);
+    background-color: rgb(40, 44, 52, 0.7);
     height: 8vh;
     display: flex;
     flex-direction: row;
@@ -44,11 +44,17 @@ p {
 .contato_menu_css,
 .entrar_login_css,
 .registrar_login_css,
-.sair_login_css {
+.sair_login_css,
+.painel_menu_two_css {
     font-size: calc(10px + 0.7vmin);
     color: white;
     margin-left: 2vw;
     text-decoration: none;
+}
+
+.painel_menu_two_css {
+    margin-left: 0;
+    color:black
 }
 
 .inicio_menu_css {
