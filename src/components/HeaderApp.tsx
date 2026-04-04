@@ -1,7 +1,8 @@
 import "./Header_app_css.css"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { Link } from "react-router-dom"
 import ModalRegister from "./ModalRegister"
+import ModalPainel from "./ModalPainel"
 
 
 
@@ -21,14 +22,21 @@ export const HeaderApp = () => {
 
   const handleLogin = () => {
     if (login === MOCK_LOGIN && password === MOCK_PASSWORD) {
-      setLogin("")
-      setPassword("")
-      setError("")
       setModalPainel(false) // fecha modal
     } else {
       setError("Login ou senha inválidos")
     }
   }
+
+  useEffect(() => {
+    if (modalPainel) {
+      setLogin("")
+      setPassword("")
+      setError("")
+    }
+  }, [modalPainel])
+
+
 
   return (
     <div className="header_app_css">
@@ -59,9 +67,10 @@ export const HeaderApp = () => {
         <p>|</p>
         <p className="sair_login_css" onClick={() => { console.log("cliquei sair") }}>Sair</p>
         <p className="sair_decoration_css">|</p>
+
         <ModalRegister isOpen={modalOpen} setModalOpen={() => setModalOpen(!modalOpen)}>conteudo modal entrar</ModalRegister>
         <ModalRegister isOpen={modalOpenRegister} setModalOpen={() => setModalOpenRegister(!modalOpenRegister)}>conteudo modal registro</ModalRegister>
-        <ModalRegister isOpen={modalPainel} setModalOpen={() => setModalPainel(!modalPainel)}>
+        <ModalPainel isOpen={modalPainel} setModalOpen={() => setModalPainel(!modalPainel)}>
 
           <input
             type="text"
@@ -82,13 +91,10 @@ export const HeaderApp = () => {
 
 
           {error && (
-            <nav>
             <p style={{ color: "red", marginTop: "10px", marginLeft: 0 }}>
               {error}
             </p>
-            
-            <Link to="/" className="painel_menu_two_css" onClick={() => setModalPainel(false)}>Voltar</Link>
-            </nav>
+
           )}
 
 
@@ -96,7 +102,7 @@ export const HeaderApp = () => {
             Entrar
           </button>
 
-        </ModalRegister>
+        </ModalPainel>
 
       </div>
 
