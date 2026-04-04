@@ -4,7 +4,7 @@ import Inicio1jpg from "../assets/imagesInicio/inicio1jpg.jpg"
 export const InicioApp = () => {
 
 
-    const inicioTeste = Array(30).fill(`Inicio Teste`);
+    const inicioTeste = Array(28).fill(`Inicio Teste`);
 
 
     return (

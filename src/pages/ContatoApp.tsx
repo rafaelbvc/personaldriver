@@ -2,7 +2,7 @@ import "./Contato_app_css.css"
 import Inicio4jpg from "../assets/imagesInicio/inicio4jpg.jpg"
 export const ContatoApp = () => {
 
-    const contatoTeste = Array(30).fill(`Contato Teste`)
+    const contatoTeste = Array(28).fill(`Contato Teste`)
 
 
     return (
@@ -16,7 +16,7 @@ export const ContatoApp = () => {
                 backgroundRepeat: "no-repeat",
             }}>
             <div style={{width: "100vw", height: "8vh"}}/>
-            
+
             {contatoTeste.map((testeContato) => (<p className="contato_contato_css">{testeContato}</p>))}
 
 

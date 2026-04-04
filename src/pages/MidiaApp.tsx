@@ -5,7 +5,7 @@ import Inicio3jpg from "../assets/imagesInicio/inicio3jpg.jpg"
 export const MidiaApp = () => {
 
 
-    const midiaTeste = Array(30).fill(`Midia Teste`)
+    const midiaTeste = Array(28).fill(`Midia Teste`)
 
 
     return (
