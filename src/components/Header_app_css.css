@@ -16,9 +16,9 @@
 .menu_header_css {
     display: flex;
     flex-direction: row;
-    align-items: left;
-    justify-content: left;
-    width: 50vw;
+    align-items: right;
+    justify-content: right;
+    width: 100vw;
     margin-left: 0;
 }
 
@@ -32,9 +32,9 @@
 
 span,
 p {
-    font-size: calc(10px + 0.7vmin);
+    font-size: calc(11px + 0.7vmin);
     color: black;
-    margin-left: 2vw;
+    margin-left: 3vw;
 }
 
 
@@ -46,7 +46,7 @@ p {
 .registrar_login_css,
 .sair_login_css,
 .painel_menu_two_css {
-    font-size: calc(10px + 0.7vmin);
+    font-size: calc(11px + 0.7vmin);
     color: white;
     margin-left: 2vw;
     text-decoration: none;
@@ -68,9 +68,7 @@ p {
 }
 
 
-.login_header_css {
-    width: 50vw
-}
+
 
 .sair_login_css,
 .sair_decoration_css {
