@@ -2,6 +2,11 @@ import "./Inicio_app_css.css"
 import Inicio1jpg from "../assets/imagesInicio/inicio1jpg.jpg"
 
 export const InicioApp = () => {
+
+
+    const inicioTeste = Array(30).fill(`Inicio Teste`);
+
+
     return (
         <div className="inicio_app_css">
 
@@ -14,28 +19,9 @@ export const InicioApp = () => {
                 backgroundRepeat: "no-repeat",
             }}>
 
-            <div style={{width: "100vw", height: "8vh"}}/>
-            <p className="inicio_inicio_css">Inicio teste</p>
-            <p className="inicio_inicio_css">Inicio teste</p>
-            <p className="inicio_inicio_css">Inicio teste</p>
-            <p className="inicio_inicio_css">Inicio teste</p>
-            <p className="inicio_inicio_css">Inicio teste</p>
-            <p className="inicio_inicio_css">Inicio teste</p>
-            <p className="inicio_inicio_css">Inicio teste</p>
-            <p className="inicio_inicio_css">Inicio teste</p>
-            <p className="inicio_inicio_css">Inicio teste</p>
-            <p className="inicio_inicio_css">Inicio teste</p>
-            <p className="inicio_inicio_css">Inicio teste</p>
-            <p className="inicio_inicio_css">Inicio teste</p>
-            <p className="inicio_inicio_css">Inicio teste</p>
-            <p className="inicio_inicio_css">Inicio teste</p>
-            <p className="inicio_inicio_css">Inicio teste</p>
-            <p className="inicio_inicio_css">Inicio teste</p>
-            <p className="inicio_inicio_css">Inicio teste</p>
-            <p className="inicio_inicio_css">Inicio teste</p>
-            <p className="inicio_inicio_css">Inicio teste</p>
-            <p className="inicio_inicio_css">Inicio teste</p>
-            <p className="inicio_inicio_css">Inicio teste</p>
+                <div style={{ width: "100vw", height: "8vh" }} />
+                {inicioTeste.map((testeInicio) => (<p className="inicio_inicio_css">{testeInicio}</p>))}
+
 
             </div>
         </div>)
