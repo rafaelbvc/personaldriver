@@ -3,6 +3,11 @@ import Inicio3jpg from "../assets/imagesInicio/inicio3jpg.jpg"
 
 
 export const MidiaApp = () => {
+
+
+    const midiaTeste = Array(30).fill(`Midia Teste`)
+
+
     return (
 
         <div className="midia_app_css">
@@ -17,25 +22,8 @@ export const MidiaApp = () => {
 
 
                 <div style={{ width: "100vw", height: "8vh" }} />
-                <p className="midia_midia_css">MidiaApp</p>
-                <p className="midia_midia_css">MidiaApp</p>
-                <p className="midia_midia_css">MidiaApp</p>
-                <p className="midia_midia_css">MidiaApp</p>
-                <p className="midia_midia_css">MidiaApp</p>
-                <p className="midia_midia_css">MidiaApp</p>
-                <p className="midia_midia_css">MidiaApp</p>
-                <p className="midia_midia_css">MidiaApp</p>
-                <p className="midia_midia_css">MidiaApp</p>
-                <p className="midia_midia_css">MidiaApp</p>
-                <p className="midia_midia_css">MidiaApp</p>
-                <p className="midia_midia_css">MidiaApp</p>
-                <p className="midia_midia_css">MidiaApp</p>
-                <p className="midia_midia_css">MidiaApp</p>
-                <p className="midia_midia_css">MidiaApp</p>
-                <p className="midia_midia_css">MidiaApp</p>
-                <p className="midia_midia_css">MidiaApp</p>
-                <p className="midia_midia_css">MidiaApp</p>
-                <p className="midia_midia_css">MidiaApp</p>
+                {midiaTeste.map((testeMidia) => (<p className="midia_midia_css">{testeMidia}</p>))}
+
             </div>
 
         </div>

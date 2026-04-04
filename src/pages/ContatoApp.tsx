@@ -1,6 +1,10 @@
 import "./Contato_app_css.css"
 import Inicio4jpg from "../assets/imagesInicio/inicio4jpg.jpg"
 export const ContatoApp = () => {
+
+    const contatoTeste = Array(30).fill(`Contato Teste`)
+
+
     return (
         <div className="contato_app_css">
                         <div style={{
@@ -12,27 +16,8 @@ export const ContatoApp = () => {
                 backgroundRepeat: "no-repeat",
             }}>
             <div style={{width: "100vw", height: "8vh"}}/>
-            <p className="contato_contato_css">ContatoApp</p>
-            <p className="contato_contato_css">ContatoApp</p>
-            <p className="contato_contato_css">ContatoApp</p>
-            <p className="contato_contato_css">ContatoApp</p>
-            <p className="contato_contato_css">ContatoApp</p>
-            <p className="contato_contato_css">ContatoApp</p>
-            <p className="contato_contato_css">ContatoApp</p>
-            <p className="contato_contato_css">ContatoApp</p>
-            <p className="contato_contato_css">ContatoApp</p>
-            <p className="contato_contato_css">ContatoApp</p>
-            <p className="contato_contato_css">ContatoApp</p>
-            <p className="contato_contato_css">ContatoApp</p>
-            <p className="contato_contato_css">ContatoApp</p>
-            <p className="contato_contato_css">ContatoApp</p>
-            <p className="contato_contato_css">ContatoApp</p>
-            <p className="contato_contato_css">ContatoApp</p>
-            <p className="contato_contato_css">ContatoApp</p>
-            <p className="contato_contato_css">ContatoApp</p>
-            <p className="contato_contato_css">ContatoApp</p>
-            <p className="contato_contato_css">ContatoApp</p>
-
+            
+            {contatoTeste.map((testeContato) => (<p className="contato_contato_css">{testeContato}</p>))}
 
 
             </div>

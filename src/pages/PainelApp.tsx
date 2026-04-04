@@ -2,6 +2,11 @@ import "./Painel_app_css.css"
 import Inicio2jpg from "../assets/imagesInicio/inicio2jpg.jpg"
 
 export const PainelApp = () => {
+
+
+    const painelTeste = Array(30).fill(`Painel Teste`)
+
+
     return (
         <div className="painel_app_css">
 
@@ -14,27 +19,8 @@ export const PainelApp = () => {
             }}>
 
                 <div style={{ width: "100vw", height: "8vh" }} />
-                <p className="painel_painel_css">PainelApp</p>
-                <p className="painel_painel_css">PainelApp</p>
-                <p className="painel_painel_css">PainelApp</p>
-                <p className="painel_painel_css">PainelApp</p>
-                <p className="painel_painel_css">PainelApp</p>
-                <p className="painel_painel_css">PainelApp</p>
-                <p className="painel_painel_css">PainelApp</p>
-                <p className="painel_painel_css">PainelApp</p>
-                <p className="painel_painel_css">PainelApp</p>
-                <p className="painel_painel_css">PainelApp</p>
-                <p className="painel_painel_css">PainelApp</p>
-                <p className="painel_painel_css">PainelApp</p>
-                <p className="painel_painel_css">PainelApp</p>
-                <p className="painel_painel_css">PainelApp</p>
-                <p className="painel_painel_css">PainelApp</p>
-                <p className="painel_painel_css">PainelApp</p>
-                <p className="painel_painel_css">PainelApp</p>
-                <p className="painel_painel_css">PainelApp</p>
-                <p className="painel_painel_css">PainelApp</p>
-                <p className="painel_painel_css">PainelApp</p>
-                <p className="painel_painel_css">PainelApp</p>
+                {painelTeste.map((testePainel) => (<p className="painel_painel_css">{testePainel}</p>))}
+
 
             </div>
 
