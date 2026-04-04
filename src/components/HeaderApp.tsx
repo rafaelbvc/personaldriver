@@ -10,6 +10,7 @@ export const HeaderApp = () => {
 
   const [modalOpen, setModalOpen] = useState(false)
   const [modalOpenRegister, setModalOpenRegister] = useState(false)
+  const [modalPainel, setModalPainel] = useState(false)
 
   return (
     <div className="header_app_css">
@@ -19,7 +20,7 @@ export const HeaderApp = () => {
 
           <span>|</span>
 
-          <Link to="/painel" className="painel_menu_css">Painel</Link>
+          <Link to="/painel" className="painel_menu_css" onClick={() => setModalPainel(true)}>Painel</Link>
 
           <span>|</span>
 
@@ -42,6 +43,7 @@ export const HeaderApp = () => {
         <p className="sair_decoration_css">|</p>
         <ModalRegister isOpen={modalOpen} setModalOpen={() => setModalOpen(!modalOpen)}>conteudo modal entrar</ModalRegister>
         <ModalRegister isOpen={modalOpenRegister} setModalOpen={() => setModalOpenRegister(!modalOpenRegister)}>conteudo modal registro</ModalRegister>
+        <ModalRegister isOpen={modalPainel} setModalOpen={() => setModalPainel(!modalPainel)}>conteudo modal painel</ModalRegister>
 
       </div>
 

@@ -4,7 +4,7 @@ import Inicio2jpg from "../assets/imagesInicio/inicio2jpg.jpg"
 export const PainelApp = () => {
 
 
-    const painelTeste = Array(30).fill(`Painel Teste`)
+    const painelTeste = Array(28).fill(`Painel Teste`)
 
 
     return (
