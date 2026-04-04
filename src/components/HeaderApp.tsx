@@ -1,7 +1,7 @@
 import "./Header_app_css.css"
 import { useEffect, useState } from "react"
 import { Link, useLocation } from "react-router-dom"
-import ModalRegister from "./ModalRegister"
+import ModalMain from "./ModalMain"
 import ModalPainel from "./ModalPainel"
 
 
@@ -12,8 +12,8 @@ export const HeaderApp = () => {
   //pega a url
   const location = useLocation();
 
-  const [modalOpen, setModalOpen] = useState(false)
-  const [modalOpenRegister, setModalOpenRegister] = useState(false)
+  //const [modalOpen, setModalOpen] = useState(false)
+  //const [modalOpenRegister, setModalOpenRegister] = useState(false)
   const [modalPainel, setModalPainel] = useState(false)
 
   const [login, setLogin] = useState("")
@@ -73,15 +73,15 @@ export const HeaderApp = () => {
       </div>
       <div className="login_header_css">
 
-        <p className="entrar_login_css" onClick={() => setModalOpen(true)}>Entrar</p>
+       {/* <p className="entrar_login_css" onClick={() => setModalOpen(true)}>Entrar</p>
         <p>|</p>
         <p className="registrar_login_css" onClick={() => setModalOpenRegister(true)}>Registrar</p>
         <p>|</p>
         <p className="sair_login_css" onClick={() => { console.log("cliquei sair") }}>Sair</p>
         <p className="sair_decoration_css">|</p>
 
-        <ModalRegister isOpen={modalOpen} setModalOpen={() => setModalOpen(!modalOpen)}>conteudo modal entrar</ModalRegister>
-        <ModalRegister isOpen={modalOpenRegister} setModalOpen={() => setModalOpenRegister(!modalOpenRegister)}>conteudo modal registro</ModalRegister>
+        <ModalMain isOpen={modalOpen} setModalOpen={() => setModalOpen(!modalOpen)}>conteudo modal entrar</ModalMain>
+        <ModalMain isOpen={modalOpenRegister} setModalOpen={() => setModalOpenRegister(!modalOpenRegister)}>conteudo modal registro</ModalMain> */}
         <ModalPainel isOpen={modalPainel} setModalOpen={() => setModalPainel(!modalPainel)}>
 
           <input
