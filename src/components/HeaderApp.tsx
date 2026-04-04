@@ -1,6 +1,6 @@
 import "./Header_app_css.css"
 import { useEffect, useState } from "react"
-import { Link } from "react-router-dom"
+import { Link, useLocation } from "react-router-dom"
 import ModalRegister from "./ModalRegister"
 import ModalPainel from "./ModalPainel"
 
@@ -8,6 +8,9 @@ import ModalPainel from "./ModalPainel"
 
 
 export const HeaderApp = () => {
+
+  //pega a url
+  const location = useLocation();
 
   const [modalOpen, setModalOpen] = useState(false)
   const [modalOpenRegister, setModalOpenRegister] = useState(false)
@@ -20,6 +23,14 @@ export const HeaderApp = () => {
   const MOCK_LOGIN = "admin"
   const MOCK_PASSWORD = "1234"
 
+  // verifica se for /painel e se for abre a modal
+  useEffect(() => {
+    if (location.pathname === "/painel") {
+      setModalPainel(true);
+    }
+  }, [location]);
+
+  //compara os dados caso sejam iguais libera a rota
   const handleLogin = () => {
     if (login === MOCK_LOGIN && password === MOCK_PASSWORD) {
       setModalPainel(false) // fecha modal
@@ -27,7 +38,7 @@ export const HeaderApp = () => {
       setError("Login ou senha inválidos")
     }
   }
-
+  //limpa os forms
   useEffect(() => {
     if (modalPainel) {
       setLogin("")
@@ -77,7 +88,7 @@ export const HeaderApp = () => {
             placeholder="Login"
             value={login}
             onChange={(e) => setLogin(e.target.value)}
-            style={{ width: "92%", marginTop: "160px" }}
+            style={{ height: "30px", width: "92%", marginTop: "90px", fontSize: "16px" }}
           />
 
 
@@ -86,19 +97,19 @@ export const HeaderApp = () => {
             placeholder="Senha"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            style={{ width: "92%", marginTop: "10px" }}
+            style={{ height: "30px", width: "92%", marginTop: "16px", fontSize: "16px" }}
           />
 
 
           {error && (
-            <p style={{ color: "red", marginTop: "10px", marginLeft: 0 }}>
+            <p style={{ color: "red", marginTop: "26px", marginLeft: 0 }}>
               {error}
             </p>
 
           )}
 
 
-          <button onClick={handleLogin} style={{ marginTop: "10px" }}>
+          <button onClick={handleLogin} style={{ height: "30px", width: "100px", marginTop: "16px", marginLeft: "350px", fontSize: "15px" }}>
             Entrar
           </button>
 
@@ -110,5 +121,3 @@ export const HeaderApp = () => {
     </div>
   )
 }
-
-
