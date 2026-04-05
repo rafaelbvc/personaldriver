@@ -1,7 +1,6 @@
 import "./Header_app_css.css"
 import { useEffect, useState } from "react"
 import { Link, useLocation } from "react-router-dom"
-import ModalMain from "./ModalMain"
 import ModalPainel from "./ModalPainel"
 
 
@@ -31,7 +30,7 @@ export const HeaderApp = () => {
     }
   }, [location]);
 
-  //compara os dados caso sejam iguais libera a rota
+  //compara os dados caso sejam iguais, libera a rota
   const handleLogin = () => {
     if (login === MOCK_LOGIN && password === MOCK_PASSWORD) {
       setModalPainel(false) // fecha modal

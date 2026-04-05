@@ -32,7 +32,7 @@
 
 span,
 p {
-    font-size: calc(11px + 0.7vmin);
+    font-size: calc(11px + 0.9vmin);
     color: black;
     margin-left: 3vw;
 }
@@ -44,17 +44,11 @@ p {
 .contato_menu_css,
 .entrar_login_css,
 .registrar_login_css,
-.sair_login_css,
-.painel_menu_two_css {
+.sair_login_css {
     font-size: calc(11px + 0.7vmin);
     color: white;
-    margin-left: 2vw;
+    margin-left: 2.5vw;
     text-decoration: none;
-}
-
-.painel_menu_two_css {
-    margin-left: 0;
-    color:black
 }
 
 .inicio_menu_css {
