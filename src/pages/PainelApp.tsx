@@ -10,9 +10,6 @@ export const PainelApp = () => {
     const [shows, setShows] = useState(false)
     const [viagens, setViagens] = useState(false)
 
-    //array de teste
-    // const painelTeste = Array(28).fill(`Painel Teste`)
-
 
     return (
         <div className="painel_app_css">
@@ -23,15 +20,8 @@ export const PainelApp = () => {
                 backgroundImage: `url(${Inicio2jpg})`,
                 backgroundSize: "cover",
                 backgroundRepeat: "no-repeat",
-            }}>
+            }}>  
 
-                {/*    
-            //chamada a array de teste
-            
-            <div style={{ width: "100vw", height: "8vh" }} />
-                {painelTeste.map((testePainel) => (<p className="painel_painel_css">{testePainel}</p>))}
-
-            */}
 
                 <div>
                     <div style={{ width: "100vw", height: "8vh" }} />

@@ -30,7 +30,7 @@ export const HeaderApp = () => {
     }
   }, [location]);
 
-  //compara os dados caso sejam iguais libera a rota
+  //compara os dados caso sejam iguais, libera a rota
   const handleLogin = () => {
     if (login === MOCK_LOGIN && password === MOCK_PASSWORD) {
       setModalPainel(false) // fecha modal
