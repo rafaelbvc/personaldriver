@@ -1,5 +1,6 @@
 import "./Midia_app_css.css"
 import Inicio3jpg from "../assets/imagesInicio/inicio3jpg.jpg"
+import { SpacerPages } from "../components/SpacerPages"
 
 
 export const MidiaApp = () => {
@@ -20,8 +21,8 @@ export const MidiaApp = () => {
                 backgroundRepeat: "no-repeat",
             }}>
 
-
-                <div style={{ width: "100vw", height: "8vh" }} />
+                {/* espaçamento de 8vh para inicio da página */}
+                <SpacerPages />
                 {midiaTeste.map((testeMidia) => (<p className="midia_midia_css">{testeMidia}</p>))}
 
             </div>

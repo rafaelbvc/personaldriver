@@ -2,6 +2,7 @@ import "./Painel_app_css.css"
 import Inicio2jpg from "../assets/imagesInicio/inicio2jpg.jpg"
 import { useState } from "react"
 import ModalMain from "../components/ModalMain"
+import { SpacerPages } from "../components/SpacerPages"
 
 export const PainelApp = () => {
 
@@ -24,7 +25,10 @@ export const PainelApp = () => {
 
 
                 <div>
-                    <div style={{ width: "100vw", height: "8vh" }} />
+                    
+                    {/* espaçamento de 8vh para inicio da página */}
+                    <SpacerPages />
+
                     <p style={{ cursor: "pointer" }} onClick={() => setPortos(true)}>Aeroportos/Portos</p>
                     <p style={{ cursor: "pointer" }} onClick={() => setConsultas(true)}>Consultas Médicas</p>
                     <p style={{ cursor: "pointer" }} onClick={() => setShows(true)}>Shows</p>
