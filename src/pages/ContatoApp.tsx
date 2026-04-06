@@ -1,5 +1,6 @@
 import "./Contato_app_css.css"
 import Inicio4jpg from "../assets/imagesInicio/inicio4jpg.jpg"
+import { SpacerPages } from "../components/SpacerPages"
 export const ContatoApp = () => {
 
     const contatoTeste = Array(28).fill(`Contato Teste`)
@@ -15,7 +16,9 @@ export const ContatoApp = () => {
                 backgroundSize: "cover",
                 backgroundRepeat: "no-repeat",
             }}>
-            <div style={{width: "100vw", height: "8vh"}}/>
+
+            {/* espaçamento de 8vh para inicio da página */}    
+            <SpacerPages/>
 
             {contatoTeste.map((testeContato) => (<p className="contato_contato_css">{testeContato}</p>))}
 
