@@ -8,8 +8,9 @@ export const ContatoApp = () => {
 
     return (
         <div className="contato_app_css">
-                        <div style={{
 
+            {/* imagem de fundo da página */}
+            <div style={{
                 width: "100vw",
                 height: "100vh",
                 backgroundImage: `url(${Inicio4jpg})`,
@@ -17,10 +18,10 @@ export const ContatoApp = () => {
                 backgroundRepeat: "no-repeat",
             }}>
 
-            {/* espaçamento de 8vh para inicio da página */}    
-            <SpacerPages/>
+                {/* espaçamento de 8vh para inicio da página */}
+                <SpacerPages />
 
-            {contatoTeste.map((testeContato) => (<p className="contato_contato_css">{testeContato}</p>))}
+                {contatoTeste.map((testeContato) => (<p className="contato_contato_css">{testeContato}</p>))}
 
 
             </div>

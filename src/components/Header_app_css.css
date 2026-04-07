@@ -30,8 +30,7 @@
     margin-right: 4vw;
 }
 
-span,
-p {
+span {
     font-size: calc(11px + 0.9vmin);
     color: black;
     margin-left: 3vw;

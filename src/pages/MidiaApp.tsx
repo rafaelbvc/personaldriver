@@ -12,8 +12,9 @@ export const MidiaApp = () => {
     return (
 
         <div className="midia_app_css">
-            <div style={{
 
+            {/* imagem de fundo da página */}
+            <div style={{
                 width: "100vw",
                 height: "100vh",
                 backgroundImage: `url(${Inicio3jpg})`,

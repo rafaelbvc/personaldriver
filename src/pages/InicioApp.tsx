@@ -11,16 +11,18 @@ export const InicioApp = () => {
     return (
         <div className="inicio_app_css">
 
+            {/* imagem de fundo da página */}
             <div style={{
-
                 width: "100vw",
                 height: "100vh",
                 backgroundImage: `url(${Inicio1jpg})`,
                 backgroundSize: "cover",
                 backgroundRepeat: "no-repeat",
             }}>
+
                 {/* espaçamento de 8vh para inicio da página */}
                 <SpacerPages />
+                
                 {inicioTeste.map((testeInicio) => (<p className="inicio_inicio_css">{testeInicio}</p>))}
 
 
