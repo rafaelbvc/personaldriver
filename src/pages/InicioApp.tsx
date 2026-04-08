@@ -1,6 +1,6 @@
 import "./Inicio_app_css.css"
 import Inicio1jpg from "../assets/imagesInicio/inicio1jpg.jpg"
-import { SpacerPages } from "../components/SpacerPages";
+import { SpacerPages } from "../components/spacerPages/SpacerPages";
 
 export const InicioApp = () => {
 
@@ -22,7 +22,7 @@ export const InicioApp = () => {
 
                 {/* espaçamento de 8vh para inicio da página */}
                 <SpacerPages />
-                
+
                 {inicioTeste.map((testeInicio) => (<p className="inicio_inicio_css">{testeInicio}</p>))}
 
 

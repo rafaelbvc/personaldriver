@@ -1,7 +1,8 @@
 import "./Header_app_css.css"
 import { useEffect, useState } from "react"
 import { Link, useLocation } from "react-router-dom"
-import ModalPainel from "./ModalPainel"
+import ModalPainel from "../modals/ModalPainel";
+
 
 
 
@@ -20,8 +21,8 @@ export const HeaderApp = () => {
   const [error, setError] = useState("")
  
   //colocar em um .env afim de mvp
-  const MOCK_LOGIN = "admin"
-  const MOCK_PASSWORD = "1234"
+  const MOCK_LOGIN = "1"
+  const MOCK_PASSWORD = "1"
 
   // verifica se for /painel e se for abre a modal
   useEffect(() => {
@@ -88,7 +89,7 @@ export const HeaderApp = () => {
             placeholder="Login"
             value={login}
             onChange={(e) => setLogin(e.target.value)}
-            style={{ height: "30px", width: "92%", marginTop: "90px", fontSize: "16px" }}
+            style={{ height: "30px", width: "92%", marginTop: "90px", fontSize: "16px", borderRadius: "4px", border: "1px solid #ccc" }}
           />
 
 
@@ -97,7 +98,7 @@ export const HeaderApp = () => {
             placeholder="Senha"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            style={{ height: "30px", width: "92%", marginTop: "16px", fontSize: "16px" }}
+            style={{ height: "30px", width: "92%", marginTop: "16px", fontSize: "16px", borderRadius: "4px", border: "1px solid #ccc" }}
           />
 
 

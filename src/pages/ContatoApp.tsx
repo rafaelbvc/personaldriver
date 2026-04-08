@@ -1,6 +1,6 @@
 import "./Contato_app_css.css"
 import Inicio4jpg from "../assets/imagesInicio/inicio4jpg.jpg"
-import { SpacerPages } from "../components/SpacerPages"
+import { SpacerPages } from "../components/spacerPages/SpacerPages"
 export const ContatoApp = () => {
 
     const contatoTeste = Array(28).fill(`Contato Teste`)

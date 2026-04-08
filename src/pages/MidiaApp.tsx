@@ -1,6 +1,6 @@
 import "./Midia_app_css.css"
 import Inicio3jpg from "../assets/imagesInicio/inicio3jpg.jpg"
-import { SpacerPages } from "../components/SpacerPages"
+import { SpacerPages } from "../components/spacerPages/SpacerPages"
 
 
 export const MidiaApp = () => {

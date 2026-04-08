@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import "./Modal_css.css"
-import { TModal } from "../types/TModal"
+import { TModal } from "../../types/TModal"
 
 
 

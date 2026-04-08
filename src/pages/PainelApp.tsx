@@ -1,9 +1,9 @@
 import "./Painel_app_css.css"
 import Inicio2jpg from "../assets/imagesInicio/inicio2jpg.jpg"
 import { useState } from "react"
-import ModalMain from "../components/ModalMain"
-import { SpacerPages } from "../components/SpacerPages"
-import Formulario from "../components/Formulario"
+import ModalMain from "../components/modals/ModalMain"
+import { SpacerPages } from "../components/spacerPages/SpacerPages"
+import Formulario from "../forms/Formulario"
 
 export const PainelApp = () => {
 
