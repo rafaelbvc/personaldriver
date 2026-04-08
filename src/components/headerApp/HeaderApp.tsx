@@ -1,7 +1,8 @@
 import "./Header_app_css.css"
 import { useEffect, useState } from "react"
 import { Link, useLocation } from "react-router-dom"
-import ModalPainel from "./ModalPainel"
+import ModalPainel from "../modals/ModalPainel";
+
 
 
 

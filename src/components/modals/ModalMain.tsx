@@ -1,4 +1,4 @@
-import { TModal } from "../types/TModal"
+import { TModal } from "../../types/TModal"
 import "./Modal_css.css"
 
 
