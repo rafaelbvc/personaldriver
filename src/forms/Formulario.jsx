@@ -83,7 +83,7 @@ export default function ContractGenerator() {
         
         <button 
           onClick={() => setShowPreview(true)} 
-          style={{ padding: '10px', backgroundColor: '#007bff', color: 'white', border: 'none', borderRadius: '4px', cursor: 'pointer' }}
+          style={{ padding: '10px', backgroundColor: '#007bff', color: 'white', border: 'none', borderRadius: '4px', cursor: 'pointer', fontSize: '16px' }}
         >
           Gerar Prévia do PDF
         </button>
