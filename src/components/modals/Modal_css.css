@@ -4,25 +4,52 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgb(0, 0, 0, 0.96);
+    background-color: rgba(0, 0, 0, 0.85); /* Opacidade ajustada para melhor contraste */
     z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .modal_modal_css {
-    height: 480px;
-    width: 480px;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 20px;
+    width: 90%; /* Ocupa 90% da tela em celulares */
+    max-width: 480px; /* Não passa de 480px em telas grandes */
+    min-height: 400px;
+    padding: 24px;
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 12px;
+    position: relative; /* Para posicionar o botão X se necessário */
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Cabeçalho da Modal */
+.modal_header {
+    display: flex;
+    justify-content: flex-end; /* Joga o botão X para a direita */
+    width: 100%;
+}
+
+.btn_close {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: #333;
+    padding: 5px 10px;
 }
 
 .content_modal_css {
-    margin: 0;
-    margin-top: 70px;
-    font-size: calc(13px + 0.9vmin);
+    margin-top: 40px;
+    font-size: clamp(1rem, 4vw, 1.4rem); /* Fonte fluida: se adapta ao tamanho da tela */
     color: #67696e;
+    text-align: center;
+}
+
+/* Breakpoint para telas muito pequenas */
+@media (max-width: 480px) {
+    .modal_modal_css {
+        padding: 15px;
+        width: 95%;
+    }
 }
