@@ -89,7 +89,7 @@ export const HeaderApp = () => {
             placeholder="Login"
             value={login}
             onChange={(e) => setLogin(e.target.value)}
-            style={{ height: "30px", width: "92%", marginTop: "90px", fontSize: "16px", borderRadius: "4px", border: "1px solid #ccc" }}
+            style={{ height: "30px", width: "92%", marginTop: "40px", fontSize: "16px", borderRadius: "4px", border: "1px solid #ccc" }}
           />
 
 
@@ -110,7 +110,7 @@ export const HeaderApp = () => {
           )}
 
 
-          <button onClick={handleLogin} style={{ height: "30px", width: "100px", marginTop: "16px", marginLeft: "350px", fontSize: "15px" }}>
+          <button onClick={handleLogin} style={{ height: "30px", width: "100px", marginTop: "16px", marginLeft: "73%", fontSize: "15px" }}>
             Entrar
           </button>
 
