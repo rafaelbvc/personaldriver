@@ -23,5 +23,5 @@
   },
   "include": [
     "src", "globals.d.ts"
-  ]
+, "backup"  ]
 }
