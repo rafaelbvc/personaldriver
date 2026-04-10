@@ -14,7 +14,8 @@
     gap: 1vh;
 }
 
-.inicio_conteudo_primeiro_container_css, .inicio_conteudo_segundo_css {
+.inicio_conteudo_primeiro_container_css,
+.inicio_conteudo_segundo_css {
     padding: 10px;
     width: 80%;
     background-color: rgb(40, 44, 52, 0.4);
@@ -36,19 +37,44 @@
 
 
 @media (min-width: 1200px) {
-    
- .inicio_conteudo_css {
-    flex-direction: row;
-    gap: 2vw;
- }
 
- .inicio_conteudo_primeiro_container_css, .inicio_conteudo_segundo_css {
-    width: 40%;
-    height: 60%;
- }
+    .inicio_conteudo_css {
+        flex-direction: row;
+        gap: 2vw;
+    }
 
- .inicio_conteudo_primeiro_css {
-    font-size: calc(33px + 1vmin);
- }
+    .inicio_conteudo_primeiro_container_css,
+    .inicio_conteudo_segundo_css {
+        width: 40%;
+        height: 60%;
+    }
+
+    .inicio_conteudo_primeiro_css {
+        font-size: calc(33px + 1vmin);
+    }
+
+}
+
+@media (min-width: 1600px) {
+
+    .inicio_conteudo_primeiro_container_css,
+    .inicio_conteudo_segundo_css {
+        width: 30%;
+        height: 60%;
+    }
+
+    .inicio_conteudo_primeiro_css {
+        font-size: calc(40px + 1vmin);
+    }
+
+}
+
+@media (min-width: 2000px) {
+
+    .inicio_conteudo_primeiro_container_css,
+    .inicio_conteudo_segundo_css {
+        width: 25%;
+        height: 60%;
+    }
 
 }

@@ -2,6 +2,7 @@ import "./Inicio_app_css.css"
 import Inicio1jpg from "../assets/imagesInicio/inicio1jpg.jpg"
 import { SpacerPages } from "../components/spacerPages/SpacerPages";
 
+
 export const InicioApp = () => {
 
 
