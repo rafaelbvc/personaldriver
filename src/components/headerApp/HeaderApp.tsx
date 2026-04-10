@@ -56,19 +56,19 @@ export const HeaderApp = () => {
         <nav>
           <Link to="/" className="inicio_menu_css">Inicio</Link>
 
-          <span>|</span>
+          <span className="inicio_menu_span_css">|</span>
 
           <Link to="/painel" className="painel_menu_css" onClick={() => setModalPainel(true)}>Painel</Link>
 
-          <span>|</span>
+          <span className="inicio_menu_span_css">|</span>
 
           <Link to="/midia" className="midia_menu_css">Mídia</Link>
 
-          <span>|</span>
+          <span className="inicio_menu_span_css">|</span>
 
           <Link to="/contato" className="contato_menu_css">Contato</Link>
         </nav>
-        <span>|</span>
+        <span className="inicio_menu_span_css">|</span>
 
       </div>
       <div className="login_header_css">
