@@ -31,11 +31,14 @@
     text-align: left;
 }
 
-.inicio_conteudo_text_css {
+.inicio_conteudo_text_css, .inicio_h2_css {
     color: #fff;
     text-align: right;
 }
 
+.inicio_conteudo_text_css {
+    font-size: calc(14px + 0.6vmin);
+}
 
 @media (min-width: 1200px) {
 

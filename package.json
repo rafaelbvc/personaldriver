@@ -1,6 +1,6 @@
 {
   "name": "personaldriver",
-  "version": "0.6.3",
+  "version": "0.6.4",
   "private": true,
   "dependencies": {
     "@react-pdf/renderer": "^4.4.0",
