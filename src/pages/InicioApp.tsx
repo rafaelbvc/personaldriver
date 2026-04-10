@@ -37,14 +37,14 @@ export const InicioApp = () => {
 
                     <div className="inicio_conteudo_segundo_css">
 
-                        <text className="inicio_conteudo_text_css">
+                        <p className="inicio_conteudo_text_css">
 
                             <h4>Marco Personal Driver:<br/> Excelência em cada trajeto.</h4>
                             
-                            Ofereço serviço de transporte executivo com foco em pontualidade, segurança e discrição. Meu veículo é de alto padrão, conduzido por motorista treinado para atender agendas exigentes.
+                            Ofereço serviços de transporte executivo com foco em pontualidade, segurança e discrição. Meu veículo é de alto padrão, conduzido por motorista treinado para atender agendas exigentes.
                             Seja para transfer de aeroportos, eventos corporativos, shows, consultas ou logística diária, garanto um deslocamento eficiente e confortável para quem não pode perder tempo.
                             
-                        </text>
+                        </p>
 
                     </div>
 

@@ -27,12 +27,13 @@
     font-size: calc(28px + 1vmin);
     color: #fff;
     font-weight: bolder;
-    -webkit-text-stroke: 0.1vw black;
+    -webkit-text-stroke: 0.02vw black;
     text-align: left;
 }
 
 .inicio_conteudo_text_css {
-    color: #fff
+    color: #fff;
+    text-align: right;
 }
 
 
