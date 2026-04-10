@@ -1,6 +1,6 @@
 {
   "name": "personaldriver",
-  "version": "0.5.7",
+  "version": "0.5.9",
   "private": true,
   "dependencies": {
     "@react-pdf/renderer": "^4.4.0",
@@ -20,6 +20,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "dev": "react-scripts start",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
