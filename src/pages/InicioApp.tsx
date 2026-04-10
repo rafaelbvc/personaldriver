@@ -37,23 +37,23 @@ export const InicioApp = () => {
 
                     <div className="inicio_conteudo_segundo_css">
 
+                        <h2 className="inicio_h2_css">Marco Personal Driver:<br /> Excelência em cada trajeto</h2>
+
                         <p className="inicio_conteudo_text_css">
 
-                            <h4>Marco Personal Driver:<br /> Excelência em cada trajeto.</h4>
+                            Ofereço serviços de transporte executivo com foco em pontualidade, segurança e discrição.</p>
 
-                            Ofereço serviços de transporte executivo com foco em pontualidade, segurança e discrição.
-                            Meu veículo é de alto padrão, conduzido por motorista treinado para atender agendas exigentes.
-                            Seja para transfer de aeroportos, eventos corporativos, shows, consultas ou logística diária,
-                            garanto um deslocamento eficiente e confortável para quem não pode perder tempo.
+                        <p className="inicio_conteudo_text_css"> Meu veículo é de alto padrão, conduzido por motorista treinado para atender agendas exigentes.</p>
+                        <p className="inicio_conteudo_text_css"> Seja para transfer de aeroportos, eventos corporativos, shows, consultas ou logística diária,
+                            garanto um deslocamento eficiente e confortável para quem não pode perder tempo. </p>
 
-                        </p>
-
-                    </div>
 
                 </div>
 
-
             </div>
+
+
         </div>
+        </div >
     )
 }
