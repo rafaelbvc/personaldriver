@@ -10,17 +10,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 70vh;
     gap: 1vh;
 }
 
-.inicio_conteudo_primeiro_container_css{
-    padding: 10px;
-    width: 80%;
-    background-color: rgb(40, 44, 52, 0.4);
-    border-radius: 10px;
-}
-
-.inicio_conteudo_segundo_css {
+.inicio_conteudo_primeiro_container_css, .inicio_conteudo_segundo_css {
     padding: 10px;
     width: 80%;
     background-color: rgb(40, 44, 52, 0.4);
@@ -38,4 +32,23 @@
 
 .inicio_conteudo_text_css {
     color: #fff
+}
+
+
+@media (min-width: 1200px) {
+    
+ .inicio_conteudo_css {
+    flex-direction: row;
+    gap: 2vw;
+ }
+
+ .inicio_conteudo_primeiro_container_css, .inicio_conteudo_segundo_css {
+    width: 40%;
+    height: 60%;
+ }
+
+ .inicio_conteudo_primeiro_css {
+    font-size: calc(33px + 1vmin);
+ }
+
 }
