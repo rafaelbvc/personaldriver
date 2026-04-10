@@ -5,9 +5,6 @@ import { SpacerPages } from "../components/spacerPages/SpacerPages";
 export const InicioApp = () => {
 
 
-    const inicioTeste = Array(1).fill(`Inicio Teste`);
-
-
     return (
         <div className="inicio_app_css">
 
@@ -23,7 +20,34 @@ export const InicioApp = () => {
                 {/* espaçamento de 8vh para inicio da página */}
                 <SpacerPages />
 
-                {inicioTeste.map((testeInicio) => (<p className="inicio_inicio_css">{testeInicio}</p>))}
+                <div className="inicio_conteudo_css">
+
+                    <div className="inicio_conteudo_primeiro_container_css">
+
+                        <p className="inicio_conteudo_primeiro_css">Segurança</p>
+                        <p className="inicio_conteudo_primeiro_css">Conforto</p>
+                        <p className="inicio_conteudo_primeiro_css">Rapidez</p>
+                        <p className="inicio_conteudo_primeiro_css">Disponibilidade</p>
+                        <p className="inicio_conteudo_primeiro_css">Confiança</p>
+                        <p className="inicio_conteudo_primeiro_css">Luxo</p>
+
+                    </div>
+
+
+                    <div className="inicio_conteudo_segundo_css">
+
+                        <text className="inicio_conteudo_text_css">
+
+                            <h4>Marco Personal Driver:<br/> Excelência em cada trajeto.</h4>
+                            
+                            Ofereço serviço de transporte executivo com foco em pontualidade, segurança e discrição. Meu veículo é de alto padrão, conduzido por motorista treinado para atender agendas exigentes.
+                            Seja para transfer de aeroportos, eventos corporativos, shows, consultas ou logística diária, garanto um deslocamento eficiente e confortável para quem não pode perder tempo.
+                            
+                        </text>
+
+                    </div>
+
+                </div>
 
 
             </div>
