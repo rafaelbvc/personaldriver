@@ -89,7 +89,7 @@ export const HeaderApp = () => {
             placeholder="Login"
             value={login}
             onChange={(e) => setLogin(e.target.value)}
-            style={{ height: "30px", width: "92%", marginTop: "40px", fontSize: "16px", borderRadius: "4px", border: "1px solid #ccc" }}
+            className="input_login_css"
           />
 
 
@@ -98,19 +98,19 @@ export const HeaderApp = () => {
             placeholder="Senha"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            style={{ height: "30px", width: "92%", marginTop: "16px", fontSize: "16px", borderRadius: "4px", border: "1px solid #ccc" }}
+            className="input_senha_css"
           />
 
 
           {error && (
-            <p style={{ color: "red", marginTop: "26px", marginLeft: 0 }}>
+            <p className="error_login_css">
               {error}
             </p>
 
           )}
 
 
-          <button onClick={handleLogin} style={{ height: "30px", width: "100px", marginTop: "16px", marginLeft: "73%", fontSize: "15px" }}>
+          <button onClick={handleLogin} className="button_login_css">
             Entrar
           </button>
 

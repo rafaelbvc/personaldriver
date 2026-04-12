@@ -50,6 +50,29 @@
     text-decoration: none;
 }
 
+.input_login_css, .input_senha_css {
+    height: 30px;
+    width: 92%;
+    margin-top: 16px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.error_login_css {
+    color: red;
+    margin-top: 26px;
+    margin-left: 0;
+}
+
+.button_login_css {
+    height: 30px;
+    width: 100px;
+    margin-top: 16px;
+    margin-left: 73%;
+    font-size: 15px;
+}
+
 .inicio_menu_css {
     margin-left: 2.5vw;
 }
