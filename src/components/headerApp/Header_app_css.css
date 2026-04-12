@@ -50,7 +50,15 @@
     text-decoration: none;
 }
 
-.input_login_css, .input_senha_css {
+.inicio_menu_css:hover,
+.painel_menu_css:hover,
+.midia_menu_css:hover,
+.contato_menu_css:hover {
+    color: black;
+}
+
+.input_login_css,
+.input_senha_css {
     height: 30px;
     width: 92%;
     margin-top: 16px;
