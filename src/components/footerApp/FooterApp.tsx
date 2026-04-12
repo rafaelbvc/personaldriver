@@ -6,7 +6,7 @@ export const FooterApp = () => {
     return (
 
         <div className="footer_app_css">
-            <div style={{width:"100vw",display: "flex", justifyContent: "space-between", flexDirection: "row", padding: "0 1vw 0 1vw"}}>
+            <div className="footer_container_css">
             <p className="content_footer_css">Marco Personal Driver</p>
             <p className="content_footer_css">MEI: 1564451321654</p>
             <p className="content_footer_css">Sites Whatsapp:(15)99825-4287</p>
