@@ -23,6 +23,7 @@ export const PainelApp = () => {
                 backgroundImage: `url(${Inicio2jpg})`,
                 backgroundSize: "cover",
                 backgroundRepeat: "no-repeat",
+                backgroundPosition: "center",
             }}>
 
 

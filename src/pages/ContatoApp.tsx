@@ -16,6 +16,7 @@ export const ContatoApp = () => {
                 backgroundImage: `url(${Inicio4jpg})`,
                 backgroundSize: "cover",
                 backgroundRepeat: "no-repeat",
+                backgroundPosition: "center",
             }}>
 
                 {/* espaçamento de 8vh para inicio da página */}
