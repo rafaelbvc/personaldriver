@@ -49,12 +49,12 @@ export const InicioApp = () => {
                             garanto um deslocamento eficiente e confortável para quem não pode perder tempo. </p>
 
 
+                    </div>
+
                 </div>
 
+
             </div>
-
-
-        </div>
         </div >
     )
 }
