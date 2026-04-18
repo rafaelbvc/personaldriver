@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom"
 import "./Modal_css.css"
-import { TModal } from "../../types/TModal"
+import { IModal } from "../../interfaces/IModal";
 
-export default function ModalPainel({ isOpen, children, setModalOpen }: TModal) {
+
+export default function ModalPainel({ isOpen, children, setModalOpen }: IModal) {
     if (!isOpen) return null;
 
     return (
