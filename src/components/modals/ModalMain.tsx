@@ -1,10 +1,10 @@
-import { TModal } from "../../types/TModal"
+import { IModal } from "../../interfaces/IModal"
 import "./Modal_css.css"
 
 
 
 
-export default function ModalMain({ isOpen, children, setModalOpen }: TModal) {
+export default function ModalMain({ isOpen, children, setModalOpen }: IModal) {
 
     if (isOpen) {
         return (
